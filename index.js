@@ -6,8 +6,8 @@ const {app, BrowserWindow} = electron;
 
 app.on('ready', ()=>{
   let win = new BrowserWindow({
-      width: 800,
-      height: 500
+      width: 1024,
+      height: 768
   });
 
   win.loadURL(`file://${__dirname}/index.html`);
